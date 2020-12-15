@@ -1,5 +1,6 @@
 FROM tiangolo/uwsgi-nginx-flask:python3.8
 LABEL org="iii-org"
 
+RUN apt-get update && apt install apt-transport-https ca-certificates
 COPY ./MIRROR_APT套件源 /etc/apt/sources.list
 RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
