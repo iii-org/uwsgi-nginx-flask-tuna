@@ -1,0 +1,36 @@
+stages:
+  # python3.8版本的上傳與部屬
+  - name: Publish python3.8 image
+    steps:
+    - publishImageConfig:
+        dockerfilePath: ./Dockerfile.python3.8
+        buildContext: .
+        tag: china/uwsgi-nginx-flask:python3.8
+        pushRemote: true
+        registry: 10.50.1.63:5443
+      env:
+        PLUGIN_INSECURE: "true"
+
+  # python3.7版本的上傳與部屬
+  - name: Publish python3.7 image
+    steps:
+    - publishImageConfig:
+        dockerfilePath: ./Dockerfile.python3.7
+        buildContext: .
+        tag: china/uwsgi-nginx-flask:python3.7
+        pushRemote: true
+        registry: 10.50.1.63:5443
+      env:
+        PLUGIN_INSECURE: "true"
+
+  # python3.6版本的上傳與部屬
+  - name: Publish python3.6 image
+    steps:
+    - publishImageConfig:
+        dockerfilePath: ./Dockerfile.python3.6
+        buildContext: .
+        tag: china/uwsgi-nginx-flask:python3.7
+        pushRemote: true
+        registry: 10.50.1.63:5443
+      env:
+        PLUGIN_INSECURE: "true"
