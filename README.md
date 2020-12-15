@@ -6,6 +6,9 @@
 * python3.7
 * python3.8
 
+## baseOS
+debian buster 10
+
 ## 參考來源
 * [Ubuntu 清華](https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/)
 * [pip 清華](https://mirror.tuna.tsinghua.edu.cn/help/pypi/)
