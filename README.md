@@ -7,4 +7,4 @@
 
 ## 參考來源
 * [Ubuntu 清華](https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/)
-* [pip 清華]()
+* [pip 清華](https://mirror.tuna.tsinghua.edu.cn/help/pypi/)
