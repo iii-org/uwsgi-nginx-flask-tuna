@@ -3,6 +3,7 @@
 
 ## python版本
 * python3.6
+* python3.7
 * python3.8
 
 ## 參考來源
