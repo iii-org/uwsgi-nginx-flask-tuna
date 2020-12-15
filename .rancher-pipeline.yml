@@ -29,7 +29,7 @@ stages:
     - publishImageConfig:
         dockerfilePath: ./Dockerfile.python3.6
         buildContext: .
-        tag: china/uwsgi-nginx-flask:python3.7
+        tag: china/uwsgi-nginx-flask:python3.6
         pushRemote: true
         registry: 10.50.1.63:5443
       env:
